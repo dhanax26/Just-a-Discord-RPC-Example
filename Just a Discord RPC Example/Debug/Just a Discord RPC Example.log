@@ -1,0 +1,10 @@
+﻿  connection_win.cpp
+  discord_register_win.cpp
+  discord_rpc.cpp
+  dllmain.cpp
+  rpc_connection.cpp
+  serialization.cpp
+  Just a Discord RPC Example.cpp
+C:\Users\dhana\source\repos\Just a Discord RPC Example\Just a Discord RPC Example\Just a Discord RPC Example.cpp(58,8): warning C4552: '!=': result of expression not used
+  Generating Code...
+  Just a Discord RPC Example.vcxproj -> C:\Users\dhana\source\repos\Just a Discord RPC Example\Debug\Just a Discord RPC Example.exe

@@ -1,0 +1,12 @@
+﻿  connection_win.cpp
+  discord_register_win.cpp
+  discord_rpc.cpp
+  dllmain.cpp
+  rpc_connection.cpp
+  serialization.cpp
+  Just a Discord RPC Example.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 548 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Just a Discord RPC Example.vcxproj -> C:\Users\dhana\source\repos\Just a Discord RPC Example\Release\Just a Discord RPC Example.exe

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Discord RPC">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Discord RPC\DiscordSDK">
+      <UniqueIdentifier>{b67e991f-66b5-47d0-a359-d49f4453480d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord RPC\DiscordSDK\Src">
+      <UniqueIdentifier>{97eeac30-0e36-4256-ad7c-120527043798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord RPC\DiscordSDK\Include">
+      <UniqueIdentifier>{bf633969-a795-419d-9feb-72aef3e811f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Just a Discord RPC Example.cpp">
+      <Filter>Discord RPC</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\connection_win.cpp">
+      <Filter>Discord RPC\DiscordSDK\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\discord_register_win.cpp">
+      <Filter>Discord RPC\DiscordSDK\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\discord_rpc.cpp">
+      <Filter>Discord RPC\DiscordSDK\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\dllmain.cpp">
+      <Filter>Discord RPC\DiscordSDK\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\rpc_connection.cpp">
+      <Filter>Discord RPC\DiscordSDK\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\serialization.cpp">
+      <Filter>Discord RPC\DiscordSDK\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DiscordSDK\include\discord_register.h">
+      <Filter>Discord RPC\DiscordSDK\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\include\discord_rpc.h">
+      <Filter>Discord RPC\DiscordSDK\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\backoff.h">
+      <Filter>Discord RPC\DiscordSDK\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\msg_queue.h">
+      <Filter>Discord RPC\DiscordSDK\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rpc_connection.h">
+      <Filter>Discord RPC\DiscordSDK\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\serialization.h">
+      <Filter>Discord RPC\DiscordSDK\Src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
